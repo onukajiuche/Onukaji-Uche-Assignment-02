@@ -28,6 +28,7 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers){
+  
   evenNumbers=arrayOfNumbers.filter((number) => (number % 2) === 0)
     return arrayOfNumbers.length;
 }
