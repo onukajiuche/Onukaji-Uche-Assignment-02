@@ -31,7 +31,7 @@ function countEvenNumbers(arrayOfNumbers){
   
   
   evenNumbers=arrayOfNumbers.filter((number) => (number % 2) === 0)
-    return arrayOfNumbers.length;
+    return evenNumbers.length;
 }
  assignment.countEvenNumbers = countEvenNumbers;
 
